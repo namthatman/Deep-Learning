@@ -19,4 +19,17 @@ The goal is to make an Artificial Neural Network that can predict, based on geo-
     11/ Tuning:               GridSearchCV
 
 ## Convolutional Neural Networks (CNN)
-Convolutional Neural Networks for Image Recognition (working)
+Convolutional Neural Network for Image Recognition that is able to detect various objects in images. A CNN model is implemented to  recognize a cat or a dog in a set of pictures. However, this model can be reused to detect anything else.
+
+    1/ Accuracy:              training (%), test (%)
+    2/ Libraries:             numpy, tensorflow, keras
+    3/ Dataset:               training (4000 dogs, 4000 cats), test (1000 dogs, 1000 cats)
+    4/ Activation Function:   relu, sigmoid
+    5/ Loss Function:         binary_crossentropy
+    6/ Optimizer:             adam
+    7/ Evaluating:            not needed
+    8/ Improving:             Dropout
+    9/ Tuning:                GridSearchCV
+    
+## Recurrent Neural Networks (RNN)
+Recurrent Neural Networks to predict Stock Prices (working)
