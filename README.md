@@ -43,7 +43,7 @@ Recurrent Neural Networks to predict Stock Prices. An ultra-powerful RNN model w
     7/ Optimizer:             adam
     8/ Evaluating:            rmse (not neccessary)
     9/ Improving:             get more training data, increase timesteps, add other indicators, add more LSTM layers, add more neurones
-    10/ Tuning:                GridSearchCV
+    10/ Tuning:               GridSearchCV
     
 ## Self-Organizing Maps (SOM)
 Self-Organizing Maps to investigate Fraud (working)
