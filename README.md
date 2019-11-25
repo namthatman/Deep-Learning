@@ -32,4 +32,19 @@ Convolutional Neural Network for Image Recognition that is able to detect variou
     9/ Tuning:                GridSearchCV
     
 ## Recurrent Neural Networks (RNN)
-Recurrent Neural Networks to predict Stock Prices (working)
+Recurrent Neural Networks to predict Stock Prices. An ultra-powerful RNN model with LSTMs (Long Short Term Memory RNNs) will take the challenge to predict the real Google stock price. The RNN model will learn the trend of the actual real Google stock price data from the past 5 years (2012-2016), then predict the trend of the stock price of January, 2017. The predicted stock price will be compared with the trend of the real stock price of January, 2017. As noted, we are interested in capturing the directions or the trends of the stock price rather than the accuracy in values of the stock price.
+
+    1/ RMSE:                  17.2815 (Relative error = 0.0214)
+    2/ Libraries:             numpy, matplotlib, pandas, math, sklearn, tensorflow, keras
+    3/ Dataset:               'Google_Stock_Price.csv', training (1258 days in past 5 years 2012-2016), test (20 days in January, 2017)
+    4/ Feature Scalling:      MinMaxScaler
+    5/ Layers:                LSTMs and Dropout regularisation
+    6/ Loss Function:         mean_squared_error
+    7/ Optimizer:             adam
+    8/ Evaluating:            rmse (not neccessary)
+    9/ Improving:             get more training data, increase timesteps, add other indicators, add more LSTM layers, add more neurones
+    10/ Tuning:                GridSearchCV
+    
+## Self-Organizing Maps (SOM)
+Self-Organizing Maps to investigate Fraud (working)
+    
