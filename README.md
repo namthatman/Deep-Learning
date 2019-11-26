@@ -46,5 +46,14 @@ Recurrent Neural Networks to predict Stock Prices. An ultra-powerful RNN model w
     10/ Tuning:               GridSearchCV
     
 ## Self-Organizing Maps (SOM)
-Self-Organizing Maps to investigate Fraud (working)
-    
+Self-Organizing Maps to investigate Fraud. The business challenge here is about detecting fraud in credit card applications. Create a SOM Deep Learning model for a bank given a dataset that contains information on customers applying for an advanced credit card. This is the data that customers provided when filling the application form. The goal is to detect potential fraud within these applications. By the end, an explicit list of customers who potentially cheated on their applications is presented.
+
+    1/ Libraries:             numpy, pandas, pylab, sklearn, minisom, tensorflow, keras
+    2/ Dataset:               'Credit_Card_Applications.csv'
+    3/ Feature Scalling:      MinMaxScaler, StandardScaler
+    4/ Activation Function:   relu, sigmoid
+    5/ Loss Function:         binary_crossentropy
+    6/ Optimizer:             adam
+
+## Boltzmann Machines (BM)    
+Boltzmann Machines to create a Recomender System (working)
