@@ -56,4 +56,15 @@ Self-Organizing Maps to investigate Fraud. The business challenge here is about 
     6/ Optimizer:             adam
 
 ## Boltzmann Machines (BM)    
-Boltzmann Machines to create a Recomender System (working)
+Boltzmann Machines to create a Recommender System. A Deep Belief Network, or Restricted Boltzmann Machine (RBM) to create a Recommender System on a dataset that has exactly the same features as the Netflix dataset: plenty of movies, thousand of users, who have rated the movies they watched. The ratings go from 1 to 5. The Recommender System will be able to predict the ratings of the movies the customers didn’t watch by evaluating the probability whether the customers will like to "Liked" or "Not Liked" to movies.
+
+    1/ Accuracy:              78%
+    2/ Libraries:             numpy, pandas, pytorch
+    3/ Dataset:               1 million ratings from 6000 users on 4000 movies (MovieLens)
+    6/ Activation Function:   sigmoid
+    7/ Loss function:         average distance
+    8/ Optimizer:             Contrastive Divergence (CD)
+    9/ Evaluating:            k-Fold Cross Validation
+    
+## Stacked AutoEncoders (AE) 
+Stacked Autoencoders to create a Recommender System (working)
