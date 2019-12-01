@@ -61,18 +61,18 @@ Boltzmann Machines to create a Recommender System. A Deep Belief Network, or Res
     1/ Accuracy:              78%
     2/ Libraries:             numpy, pandas, pytorch
     3/ Dataset:               1 million ratings from 6000 users on 4000 movies (MovieLens)
-    6/ Activation Function:   sigmoid
-    7/ Loss function:         average distance
-    8/ Optimizer:             Contrastive Divergence (CD)
-    9/ Evaluating:            k-Fold Cross Validation
+    4/ Activation Function:   sigmoid
+    5/ Loss function:         average distance
+    6/ Optimizer:             Contrastive Divergence (CD)
+    7/ Evaluating:            k-Fold Cross Validation
     
 ## Stacked AutoEncoders (AE) 
 Stacked Autoencoders to create a Recommender System. Another Recommender System created from the AutoEncoder (AE) model to achieve the same goal as the BM Recommender System above. The difference is that the AutoEncoder is even more powerful to be able to predict the ratings by the ranking 1 to 5 for the movies the customers didn't watch training on the same dataset as above.
 
-    1/ Loss:                  0.92 (training), 0.94 (test)
+    1/ Loss:                  0.92 (training), 0.94 (test). The error between the predict ratings and the actual ratings are less than 1* star
     2/ Loss function:         mean squared error
-    2/ Libraries:             numpy, pandas, pytorch
-    3/ Dataset:               1 million ratings from 6000 users on 4000 movies (MovieLens)
-    6/ Activation Function:   sigmoid
-    8/ Optimizer:             RMSprop
-    9/ Evaluating:            k-Fold Cross Validation
+    3/ Libraries:             numpy, pandas, pytorch
+    4/ Dataset:               1 million ratings from 6000 users on 4000 movies (MovieLens)
+    5/ Activation Function:   sigmoid
+    6/ Optimizer:             RMSprop
+    7/ Evaluating:            k-Fold Cross Validation
