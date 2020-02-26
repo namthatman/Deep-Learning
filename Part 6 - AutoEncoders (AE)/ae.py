@@ -1,5 +1,7 @@
 # AutoEncoders
 
+# Download MovieLens 1M dataset from this link: https://grouplens.org/datasets/movielens/1m/
+
 # Importing the libraries
 import numpy as np
 import pandas as pd

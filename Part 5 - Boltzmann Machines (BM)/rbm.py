@@ -1,5 +1,7 @@
 # Boltzmann Machines
 
+# Download MovieLens 1M dataset from this link: https://grouplens.org/datasets/movielens/1m/
+
 # Importing the libraries
 import numpy as np
 import pandas as pd
@@ -11,9 +13,9 @@ import torch.utils.data
 from torch.autograd import Variable
 
 # Importing the dataset
-movies = pd.read_csv('ml-latest/movies.csv')
-tags = pd.read_csv('ml-latest/tags.csv')
-ratings = pd.read_csv('ml-latest/ratings.csv')
+movies = pd.read_csv('ml-1m/movies.dat', sep = '::', header = None, engine = 'python', encoding = 'latin-1')
+users = pd.read_csv('ml-1m/users.dat', sep = '::', header = None, engine = 'python', encoding = 'latin-1')
+ratings = pd.read_csv('ml-1m/ratings.dat', sep = '::', header = None, engine = 'python', encoding = 'latin-1')
 X = np.array(ratings, dtype = 'float')
 
 # Splitting the dataset into the Training set and Test set
