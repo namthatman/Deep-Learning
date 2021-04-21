@@ -1,4 +1,4 @@
-Following the Udemy course, "Deep Learning A-Z™: Hands-On Artificial Neural Networks", by Kirill Eremenko, Hadelin de Ponteves, SuperDataScience Team
+CREDIT: Udemy course, "Deep Learning A-Z™: Hands-On Artificial Neural Networks", by Kirill Eremenko, Hadelin de Ponteves, SuperDataScience Team
 
 # Deep Learning
 ## Artificial Neural Networks (ANN)
